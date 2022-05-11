@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HelpWin</class>
+ <widget class="QDialog" name="HelpWin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>450</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>169</x>
+     <y>40</y>
+     <width>112</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Игра Марио</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>90</y>
+     <width>431</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Для начала игры нажмите Play в Menu.
+Цель игры: пройти все уровни. Чтобы пройти уровень нужно дойти до
+зелёного флажка.
+Управлени осуществляется клавишами Left, Right, Space.У персонажа
+есть три жизни, после смерти игрок возвращается в начало текущего
+уровня, если жизни закончились, то в начало первого.
+
+ОСТЕРЕГАЙТЕСЬ ДИНОЗАВРОВ!
+(чтобы убить динозавра нужно прыгнуть на него сверху)</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
